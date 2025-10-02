@@ -1,0 +1,24 @@
+node_modules/
+.vitest/
+test-results/
+__screenshots__/
+.DS_Store
+
+# Rush
+common/temp/
+common/autoinstallers/*/node_modules/
+common/autoinstallers/*/.npmrc
+common/autoinstallers/*/package-lock.json
+common/autoinstallers/*/yarn.lock
+common/autoinstallers/*/pnpm-lock.yaml
+
+# Rush build cache
+common/temp/build-cache/
+
+# Rush telemetry
+common/temp/telemetry/
+
+# Rush change files
+common/changes/
+
+coverage/
